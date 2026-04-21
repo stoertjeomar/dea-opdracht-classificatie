@@ -1,0 +1,5 @@
+Run;Model;Target;Features (aantal + namen);Categorische features;Encoding;Test size;Hyperparameters;Accuracy;Precision (weighted);Recall (weighted);F1 (weighted);Opmerking / conclusie
+1;DecisionTreeClassifier;Overall Qual;3: Neighborhood, Gr Liv Area, Year Built;Neighborhood;One-hot;0.20;max_depth=6, min_samples_leaf=8;;;;Initiele run
+2;DecisionTreeClassifier;Overall Qual;4: Neighborhood, Gr Liv Area, Year Built, Total Bsmt SF;Neighborhood;One-hot;0.20;max_depth=10, min_samples_leaf=4, min_samples_split=12;;;;Experiment 2
+3;DecisionTreeClassifier;Overall Qual;;;One-hot;0.20;;;;;;Experiment 3
+4;DecisionTreeClassifier;Overall Qual;;;One-hot;0.20;;;;;;Experiment 4
