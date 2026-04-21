@@ -1,0 +1,5 @@
+Run;Model;Target;Features (aantal + namen);Categorische features;Encoding;Test size;Hyperparameters;Accuracy;Precision;Recall;F1;Opmerking / conclusie
+1;DecisionTreeClassifier;Garage;3: Neighborhood, Gr Liv Area, Year Built;Neighborhood;One-hot;0.20;max_depth=5, min_samples_leaf=10;;;;Initiele run
+2;DecisionTreeClassifier;Garage;4: Neighborhood, Gr Liv Area, Year Built, Lot Area;Neighborhood;One-hot;0.20;max_depth=8, min_samples_leaf=6, min_samples_split=12;;;;Experiment 2
+3;DecisionTreeClassifier;Garage;;;One-hot;0.20;;;;;;Experiment 3
+4;DecisionTreeClassifier;Garage;;;One-hot;0.20;;;;;;Experiment 4
